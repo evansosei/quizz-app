@@ -16,7 +16,7 @@ hr {
   margin-bottom: 10px;
 }
 .container {
-  padding:1rem 0;
+  padding:1rem;
   width: 100%;
   max-width: 650px;
   overflow: hidden;
@@ -207,6 +207,7 @@ hr {
   }
   .author {
     padding: 2px 0;
+    margin:auto;
   }
 }
 @media screen and (max-width: 768px) {
