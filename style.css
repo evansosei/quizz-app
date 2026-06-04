@@ -179,18 +179,13 @@ hr {
    .container {
     width: 100%;
   }
-  .screen {
-  width: 00%;
-}
+
 }
 @media screen and (max-width: 576px) {
   .container {
     width: 100%;
   }
-  .screen{
-  width: 90%;
 
-}
 
   .title {
     font-size: 2rem;
