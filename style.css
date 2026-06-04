@@ -15,6 +15,7 @@ hr {
   margin-bottom: 10px;
 }
 .container {
+  padding:1rem 0;
   width: 100%;
   max-width: 650px;
   overflow: hidden;
