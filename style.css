@@ -79,6 +79,10 @@ hr {
 .btn:active {
   transform: translateY(0);
 }
+.result-btn {
+  display: block;
+  margin: auto;
+}
 #question {
   margin-bottom: 1rem;
 }
