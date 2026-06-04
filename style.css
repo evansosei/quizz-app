@@ -179,16 +179,16 @@ hr {
    .container {
     width: 90%;
   }
-  #start-screen {
-  width: 70%;
+  .screen {
+  width: 50%;
 }
 }
 @media screen and (max-width: 576px) {
   .container {
     width: 90%;
   }
-  #start-screen{
-  width: 80%;
+  .screen{
+  width: 60%;
 
 }
 
