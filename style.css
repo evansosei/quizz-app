@@ -126,7 +126,13 @@ hr {
   background-color: #eadbc8;
   border-color: #dac0ae;
 }
-
+.result-btn-container {
+text-align:center;
+}
+.result-btn {
+  display: block;
+  margin: auto;
+}
 .progress-bar {
   height: 15px;
   background-color: rgb(252, 193, 193);
@@ -140,10 +146,7 @@ hr {
   width: 0%;
   transition: all 0.3s ease;
 }
-.result-btn {
-  display: block;
-  margin: auto;
-}
+
 
 .author {
   background-color: rgb(165, 88, 88);
