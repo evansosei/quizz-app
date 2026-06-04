@@ -174,7 +174,7 @@ hr {
   font-size: 3rem;
   font-weight: bold;
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 400px){
    .container {
     width: 70%;
   }
