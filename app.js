@@ -416,9 +416,9 @@ const quizQuestion = [
   {
     question: "  If log₁₀(1000) = ?",
     answer: [
-      { text: "1", correct: "false" },
+      { text: "10", correct: "false" },
       { text: "2", correct: "false" },
-      { text: "10", correct: "true" },
+      { text: "3", correct: "true" },
       { text: "100", correct: "false" },
     ],
   },
