@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="screen active" id="start-screen">
+        <h1 class="title">Quiz Time</h1>
+        <hr />
+        <div class="start-info">
+          <p>Test Your Knowledge On These Fun Mathematics Questions</p>
+        </div>
+        <div class="btn-container">
+          <button class="start-btn btn" id="start-btn">Start Quiz</button>
+        </div>
+        <p class="author">
+          Made with <span id="heart">&hearts;</span> by Evans Osei Kwaku
+        </p>
+      </div>
+      <div class="screen" id="question-screen">
+        <h2 id="question"></h2>
+        <div class="question-info">
+          <p>
+            Question <span id="current-qustion"> 0</span> of
+            <span id="total-question">3</span>
+          </p>
+          <p>Score : <span id="score-span">1</span></p>
+        </div>
+        <div class="answers-container">
+          <!-- <button class="answer-btn">Hypertest markup language</button>
+          <button class="answer-btn">High market price</button>
+          <button class="answer-btn">Hyper modern language</button>
+          <button class="answer-btn">all purpose language</button> -->
+        </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="screen" id="result-screen">
+        <h1 class="title">Quiz Result</h1>
+        <div class="result-info">
+          <!-- <p>
+            You score <span id="score-span-result">2</span> out of
+            <span id="max-question-span">5</span>
+          </p> -->
+          <p class="total-score">
+            Total score : <span id="score-span-result">2</span>
+          </p>
+          <p id="score-remarks">Good keep it up!</p>
+        </div>
+        <button class="result-btn btn">Restart Quiz</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
