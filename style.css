@@ -177,18 +177,18 @@ hr {
 }
 @media screen and (max-width: 400px){
    .container {
-    width: 90%;
+    width: 100%;
   }
   .screen {
-  width: 80%;
+  width: 00%;
 }
 }
 @media screen and (max-width: 576px) {
   .container {
-    width: 90%;
+    width: 100%;
   }
   .screen{
-  width: 80%;
+  width: 90%;
 
 }
 
