@@ -558,7 +558,7 @@ function showresult() {
   } else if (calScore >= 40) {
     scoreRemarksEl.textContent = "keep studying!, you will get better";
   } else if (calScore >= 0) {
-    scoreRemarksEl.textContent = "You have to take your lesson serious";
+    scoreRemarksEl.textContent = "You have to take your lesson seriously";
   }
 }
 function restartquiz() {
